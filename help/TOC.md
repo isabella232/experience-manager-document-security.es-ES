@@ -3,23 +3,23 @@ cloud: experience-cloud
 product: adobe experience manager
 solution: Experience Manager
 audience: end-user
-user-guide-title: Guía de seguridad de documentos de Adobe Experience Manager
+user-guide-title: Guía de Adobe Experience Manager Document Security
 breadcrumb-title: Guía de seguridad de documento
 user-guide-description: La extensión de seguridad de documentos para Microsoft® Office garantiza que solo las personas autorizadas por usted puedan utilizar archivos de Word, Excel y PowerPoint que contengan su propiedad intelectual.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2aa816f854ad556db570b3e56ee796f09a81769
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
 
-# Guía de seguridad de documentos de Adobe Experience Manager {#using}
+# Guía de Adobe Experience Manager Document Security {#using}
 
-+ [Introducción a AEM Documento Security Extension for Microsoft Office](document-security-extension-microsoft-office.md)
-+ [AEM Documento Security para Microsoft Office: Notas de la versión](document-security-extension-release-notes.md)
-+ [Descargar Adobe Experience Manager Documento Security/LiveCycle Rights Management Extension for Microsoft Office](download-installer.md)
-+ [Instalación y configuración de AEM Documento Security Extension for Microsoft Office](installing-configuring-aemdsext.md)
-+ [Uso de AEM Documento Security Extension for Microsoft Office](using-aem-document-security-extension.md)
-+ [Solución de problemas de AEM Documento Security Extension for Microsoft Office](troubleshooting-document-security-extension.md)
++ [Introducción a la extensión de AEM Document Security para Microsoft Office](document-security-extension-microsoft-office.md)
++ [AEM Document Security para Microsoft Office: Notas de la versión](document-security-extension-release-notes.md)
++ [Descargar la extensión de Adobe Experience Manager Document Security/LiveCycle Rights Management para Microsoft Office](download-installer.md)
++ [Instalación y configuración de la extensión de AEM Document Security para Microsoft Office](installing-configuring-aemdsext.md)
++ [Uso de la extensión de AEM Document Security para Microsoft Office](using-aem-document-security-extension.md)
++ [Solución de problemas de la extensión de AEM Document Security para Microsoft Office](troubleshooting-document-security-extension.md)
