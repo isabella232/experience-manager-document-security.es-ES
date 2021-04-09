@@ -9,9 +9,9 @@ breadcrumb-title: Guía de seguridad de documento
 user-guide-description: La extensión de seguridad de documentos para Microsoft® Office garantiza que solo las personas autorizadas por usted puedan utilizar archivos de Word, Excel y PowerPoint que contengan su propiedad intelectual.
 feature: Seguridad de los documentos
 role: Profesional empresarial
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7be2b17e7685a391dcccde2cc008802b5773cadf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
 ht-degree: 100%
 
