@@ -181,7 +181,8 @@ Si todavía no tiene una cuenta de Document Security, puede iniciar el proceso d
 Después de registrarse y activar la cuenta, puede utilizar los archivos protegidos por directivas que recibió autorización para utilizar mediante una directiva.
 
 >[!NOTE]
-Si recibe un archivo protegido por una directiva y no tiene una cuenta de Document Security, o si recibe una invitación para registrarse, póngase en contacto con la persona que le envió el archivo para obtener ayuda.
+>
+>Si recibe un archivo protegido por una directiva y no tiene una cuenta de Document Security, o si recibe una invitación para registrarse, póngase en contacto con la persona que le envió el archivo para obtener ayuda.
 
 Si recibe una invitación por correo electrónico de Document Security para registrarse, puede hacerlo utilizando la URL del mensaje de correo electrónico para abrir la página de registro en línea. Después de registrarse, recibirá un segundo aviso sobre la activación de su cuenta.
 
@@ -192,7 +193,8 @@ Si recibe una invitación por correo electrónico de Document Security para regi
 1. Escriba su nombre, organización y contraseña en los cuadros correspondientes. La contraseña puede ser cualquier combinación de ocho caracteres.
 
    >[!NOTE]
-   Asegúrese de elegir una contraseña que sea fácil de recordar; no hay ningún método disponible para buscar contraseñas olvidadas.
+   >
+   >Asegúrese de elegir una contraseña que sea fácil de recordar; no hay ningún método disponible para buscar contraseñas olvidadas.
 
 1. Haga clic en **Registrar**. Aparece un mensaje que le informa de que debe buscar un mensaje de correo electrónico de activación en su correo electrónico.
 1. Abra el correo electrónico de confirmación de registro de Document Security.
@@ -330,7 +332,8 @@ Puede aplicar cualquier directiva disponible a un archivo, incluidas las directi
 Después de aplicar una directiva, se agrega a la lista Utilizadas recientemente en el menú de AEM Document Security para facilitar la aplicación de las directivas que se utilizan con más frecuencia. Si utiliza más de una instancia de Document Security, la lista Utilizado recientemente muestra las directivas únicamente para el servidor al que está conectado actualmente o para el servidor predeterminado si aún no ha iniciado sesión en una instancia de Document Security.
 
 >[!NOTE]
-Las directivas solo se pueden aplicar a archivos de documento de Word (.doc, también.docx y .docm en Microsoft Office 2010 y 2013), archivos de libros de Excel (.xls, también .xlsx y .xlsm en Microsoft Office 2010 y 2013) y archivos de presentación de PowerPoint (.ppt, también .pptx y .pptm en Microsoft Office 2010 y 2013). No puede aplicar directivas a archivos de plantilla de Word (.dot), archivos de plantilla de Excel (.xlt) ni archivos de plantilla de diseño de PowerPoint (.pot).
+>
+>Las directivas solo se pueden aplicar a archivos de documento de Word (.doc, también.docx y .docm en Microsoft Office 2010 y 2013), archivos de libros de Excel (.xls, también .xlsx y .xlsm en Microsoft Office 2010 y 2013) y archivos de presentación de PowerPoint (.ppt, también .pptx y .pptm en Microsoft Office 2010 y 2013). No puede aplicar directivas a archivos de plantilla de Word (.dot), archivos de plantilla de Excel (.xlt) ni archivos de plantilla de diseño de PowerPoint (.pot).
 
 #### Aplicar una directiva {#apply-a-policy}
 
@@ -361,7 +364,8 @@ La extensión de Document Security para Microsoft Office restringe ciertas funci
 Si está trabajando con un archivo protegido por una directiva, es posible que algunas características del producto no estén disponibles o que no funcionen como de costumbre. Si también tiene un archivo no protegido abierto, la mayoría de las funciones se activan para el archivo no protegido, excepto las que permiten importar o copiar contenido de un archivo protegido por una directiva para el que no tiene permisos de copia o exportación.
 
 >[!NOTE]
-Cuando se utilizan aplicaciones de Office compatibles con la extensión de Document Security, se recomienda desactivar la configuración DEP de Windows. Además, para garantizar que las aplicaciones de Office se inicien sin problemas en un equipo que tenga instalada la extensión de Document Security y McAfee VirusScan con la opción de protección de acceso activada, desactive la opción Protección contra desbordamientos de búfer en la consola de McAfee VirusScan.
+>
+>Cuando se utilizan aplicaciones de Office compatibles con la extensión de Document Security, se recomienda desactivar la configuración DEP de Windows. Además, para garantizar que las aplicaciones de Office se inicien sin problemas en un equipo que tenga instalada la extensión de Document Security y McAfee VirusScan con la opción de protección de acceso activada, desactive la opción Protección contra desbordamientos de búfer en la consola de McAfee VirusScan.
 
 Si una función no está disponible, el nombre del comando en el menú y el botón de barra de herramientas relacionado no estarán disponibles. En la extensión de Document Security para Microsoft Office, cuando pasa el puntero del ratón sobre el comando o el botón, una descripción emergente indica que Document Security ha bloqueado el comando.
 
@@ -388,7 +392,8 @@ Si está autorizado, puede eliminar la protección de directivas de los archivos
    Si todavía no ha proporcionado la información de inicio de sesión para Document Security, aparecerá un cuadro de diálogo en el que se solicitará su nombre de usuario y contraseña.
 
 >[!NOTE]
-Si no puede quitar una directiva de un archivo protegido por usted, póngase en contacto con un administrador de Document Security.
+>
+>Si no puede quitar una directiva de un archivo protegido por usted, póngase en contacto con un administrador de Document Security.
 
 ### Visualización de la configuración de seguridad {#viewing-security-settings}
 
@@ -407,7 +412,8 @@ Si el administrador ha habilitado la funcionalidad de directiva de aplicación a
 Si la directiva de aplicación automática está activada, la extensión de Document Security para Microsoft Office le pedirá que inicie sesión en el servidor de Document Security. Deberá proporcionar su nombre de usuario y contraseña para que el servidor pueda autenticarse. Si ha proporcionado las credenciales de inicio de sesión correctas, el documento se guardará y protegerá.
 
 >[!NOTE]
-Si no puede iniciar sesión en Document Security, es posible que el documento se guarde o no. Esto depende de cómo haya configurado el administrador la directiva de aplicación automática. Consulte con el administrador cómo se gestionan los documentos en esta situación.
+>
+>Si no puede iniciar sesión en Document Security, es posible que el documento se guarde o no. Esto depende de cómo haya configurado el administrador la directiva de aplicación automática. Consulte con el administrador cómo se gestionan los documentos en esta situación.
 
 ### Sincronización del acceso sin conexión {#synchronizing-for-offline-access}
 
@@ -545,7 +551,8 @@ La mayoría de las directivas otorgan permisos completos al editor de archivos. 
 Si un comando no está disponible, el nombre del comando en el menú y el botón de barra de herramientas relacionado aparecen atenuados.
 
 >[!NOTE]
-La aplicación de una directiva a un archivo que contiene un vínculo a un archivo incrustado no se aplica al archivo vinculado. Document Security para Microsoft Office no extiende la protección a los archivos vinculados.
+>
+>La aplicación de una directiva a un archivo que contiene un vínculo a un archivo incrustado no se aplica al archivo vinculado. Document Security para Microsoft Office no extiende la protección a los archivos vinculados.
 
 * Los archivos de Word, Excel y PowerPoint protegidos por directivas no se pueden abrir en una ventana del explorador de Internet Explorer.
 * Los usuarios a los que solo se concedió el permiso de modificación no pueden copiar contenido en un archivo desde otra aplicación mediante el Portapapeles de Windows. Los usuarios pueden copiar contenido en archivos activando la opción Portapapeles de Microsoft Office.
