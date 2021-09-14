@@ -7,9 +7,9 @@ topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2764'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Antes de instalar extensión de Document Security para Microsoft Office, asegúr
 >
 >Se admite la instalación de una versión de 32 bits de la extensión de Document Security en un sistema operativo de 64 bits, pero no al contrario. No se puede instalar la versión de 64 bits de la extensión Document Security para Microsoft Office en un sistema operativo de 32 bits.
 
-### Deshabilitar McAfee VirusScan  {#disable-mcafee-virusscan}
+### Deshabilitar McAfee VirusScan {#disable-mcafee-virusscan}
 
 Para garantizar que las aplicaciones de Office se inicien sin problemas en un equipo que tenga instalado la extensión de Document Security y McAfee VirusScan con la opción de protección de acceso activada, desactive la opción Protección contra desbordamientos de búfer en la consola de McAfee VirusScan.
 
@@ -269,7 +269,7 @@ Puede habilitar/deshabilitar la interfaz de usuario sin cintas de herramientas m
 
 Puede cambiar la configuración del Registro de Windows para que las marcas de agua dinámicas coexistan con los encabezados y pies de página actuales. La configuración del Registro hace que la marca de agua solo esté disponible durante la impresión. Realice los siguientes pasos para actualizar el Registro y activar las marcas de agua durante la impresión:
 
-1. Realice una copia de seguridad del Registro de Windows antes de realizar cambios en él. Para obtener instrucciones detalladas, consulte [Modificar el Registro de Windows](https://support.microsoft.com/en-us/kb/136393).
+1. Realice una copia de seguridad del Registro de Windows antes de realizar cambios en él. Para obtener instrucciones detalladas, consulte [Modificar el Registro de Windows](https://support.microsoft.com/es-es/kb/136393).
 1. En el Editor del Registro, vaya a HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 o HKEY_LOCAL_MACHINE\WOW6432NODE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
 1. Cree una nueva clave de Registro **WatermarkMode**.
 1. En la clave del Registro WatermarkMode, cree un DWORD **WatermarkMode** y establezca el valor de DWORD **WatermarkMode** en **1**.
@@ -363,7 +363,7 @@ El archivo CommonResources.dll contiene información sobre las plantillas de rec
    >
    >No elimine ni agregue tipos de recursos en orden aleatorio. Después de 101, configure 102, etc.
 
-### Empaquete el archivo CommonResources.dll personalizado con el instalador de la extensión de AEM Document Security para Microsoft Office   {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
+### Empaquete el archivo CommonResources.dll personalizado con el instalador de la extensión de AEM Document Security para Microsoft Office  {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
 
 Puede personalizar el archivo CommonResources.dll para incluir una portada personalizada. Después de personalizar el archivo, puede reemplazar manualmente el archivo original por el archivo personalizado en todas las estaciones de trabajo o puede elegir un método automatizado para reemplazar el archivo.
 
