@@ -1,14 +1,16 @@
 ---
 cloud: Experience Cloud
+solution: Experience Manager, Experience Manager Forms
+product: adobe experience manager
+type: Documentation
 feature-set: Experience Manager Forms
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-document-security.es-ES
 index: true
-translation-type: ht
-source-git-commit: 7be2b17e7685a391dcccde2cc008802b5773cadf
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+source-git-commit: f8c8ec57aa5966b4b55ad782d8fdf0a156de25c4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
