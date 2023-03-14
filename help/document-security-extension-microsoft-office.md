@@ -1,24 +1,23 @@
 ---
-title: Introducción a la extensión de AEM Document Security para Microsoft Office
-description: Con la extensión de Document Security para Microsoft Office, puede aplicar parámetros de confidencialidad predefinidos a sus archivos de Microsoft Office.
+title: Introducción a AEM extensión Document Security para Microsoft&reg; Oficina
+description: Uso de la extensión de seguridad de documento para Microsoft&reg; Office, puede aplicar a su Microsoft&reg configuraciones de confidencialidad predefinidas; Archivos de Office.
 uuid: a5428c50-fae3-4823-9e6f-0f5306e7248f
 content-type: reference
 topic-tags: using
 discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
 exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
-translation-type: ht
-source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
-workflow-type: ht
-source-wordcount: '1304'
-ht-degree: 100%
+source-git-commit: f3456fa7243405a4986ac50540f8b578a6412a6c
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 67%
 
 ---
 
-# Introducción a la extensión de AEM Document Security para Microsoft Office {#introduction-to-aem-document-security-extension-for-microsoft-office}
+# Introducción a AEM extensión de seguridad de documentos para Microsoft® Office{#introduction-to-aem-document-security-extension-for-microsoft-office}
 
-La extensión de Adobe® Experience Manager Document Security para Microsoft® Office garantiza que solo las personas autorizadas por usted puedan utilizar archivos de Word, Excel y PowerPoint que contengan su propiedad intelectual. Con la extensión de Document Security para Microsoft Office puede aplicar parámetros de confidencialidad predefinidos a sus archivos.
+La extensión de Adobe® Experience Manager Document Security para Microsoft® Office garantiza que solo las personas autorizadas por usted puedan utilizar archivos de Word, Excel y PowerPoint que contengan su propiedad intelectual. Con la extensión de seguridad de documentos para Microsoft® Office, puede aplicar a sus archivos configuraciones de confidencialidad predefinidas.
 
-La extensión de Document Security para Microsoft Office amplía el complemento LiveCycle Rights Management y Document Security para Adobe Experience Manager Forms a fin de proteger los archivos de Word, Excel y PowerPoint y permitir que los usuarios autorizados que tengan este software instalado utilicen archivos protegidos por directivas de acuerdo con la configuración de confidencialidad establecida en la directiva.
+Document Security Extension para Microsoft® Office amplía el Rights Management de LiveCycle y el complemento Document Security para Adobe Experience Manager Forms para proteger archivos de Word, Excel y PowerPoint y para permitir que los usuarios autorizados que tengan este software instalado utilicen archivos protegidos por políticas de acuerdo con la configuración de confidencialidad establecida en la directiva.
 
 ## Document Security y la protección de la propiedad intelectual {#how-document-security-protects-intellectual-property}
 
@@ -26,7 +25,7 @@ Document Security garantiza que solo las personas autorizadas por usted puedan u
 
 Los administradores y usuarios de Document Security crean directivas. Los administradores crean directivas organizativas que están disponibles para todos los usuarios autorizados. Los administradores o coordinadores de conjuntos de directivas también pueden crear grupos de directivas llamados *conjuntos de directivas* que están disponibles para un subconjunto de usuarios. Los usuarios pueden crear sus propias directivas, que solo ellos pueden utilizar. Los administradores, coordinadores de conjuntos de directivas y usuarios crean directivas mediante las páginas web de Document Security.
 
-Aunque las directivas se almacenan en Document Security, las aplica a los archivos a través de Word, Excel o PowerPoint. Cuando se aplica una directiva a un archivo, la información que contiene el archivo está protegida por la configuración de confidencialidad especificada en la directiva. Al distribuir el archivo protegido por una directiva, solo los destinatarios autorizados por la directiva pueden acceder al contenido del archivo.
+Aunque las directivas se almacenan en Document Security, las aplica a los archivos a través de Word, Excel o PowerPoint. Cuando se aplica una directiva a un archivo, la información que contiene el archivo está protegida por la configuración de confidencialidad especificada en la directiva. Al distribuir el archivo protegido por políticas, solo los destinatarios autorizados por la directiva pueden acceder al contenido del archivo.
 
 El uso de una directiva para proteger un archivo le proporciona un control continuo sobre dicho archivo, incluso después de distribuirlo. Puede auditar eventos para rastrear cuándo y cómo utilizan el archivo los destinatarios, realizar cambios en la directiva, evitar que los usuarios sigan accediendo al archivo y cambiar la directiva adjunta al archivo.
 
@@ -38,22 +37,22 @@ La configuración de confidencialidad de una directiva determina cómo pueden ut
 
 Cuando se aplica una directiva a un archivo, la información que contiene el archivo está protegida por la configuración de confidencialidad especificada en la directiva. Al distribuir el archivo, Document Security autentica los destinatarios que intentan abrir el archivo y autoriza el acceso según los privilegios especificados en la directiva.
 
-Después de aplicar una directiva a un archivo, la configuración de confidencialidad de la directiva se puede cambiar en cualquier momento, lo que permite agregar o eliminar usuarios autorizados o cambiar los privilegios de los usuarios después de que hayan recibido el archivo. La directiva aplicada al archivo se puede cambiar y el acceso al archivo se puede revocar para que cualquier persona que tenga una copia del archivo ya no pueda abrirlo.
+Después de aplicar una directiva a un archivo, la configuración de confidencialidad de la directiva se puede cambiar en cualquier momento. Al hacerlo, puede agregar o eliminar usuarios autorizados o cambiar los privilegios de los usuarios después de que hayan recibido el archivo. La directiva aplicada al archivo se puede cambiar y el acceso al archivo se puede revocar para que cualquier persona que tenga una copia del archivo ya no pueda abrirlo.
 
 Si la directiva permite el acceso sin conexión, los destinatarios también pueden utilizar archivos protegidos por directivas sin conexión (sin una conexión activa a Internet o a la red) durante el período de tiempo especificado en la directiva.
 
 ## Funcionamiento de los archivos protegidos por directivas {#how-policy-protected-files-work}
 
-Para que un usuario pueda abrir y utilizar archivos de Word, Excel y PowerPoint protegidos por directivas, la directiva debe incluir al usuario como destinatario o permitir el acceso anónimo, y el usuario debe tener instalada la extensión de Document Security para Microsoft Office. Para proporcionar un archivo protegido por una directiva a una persona que no tenga la extensión de Document Security para Microsoft Office, ofrézcale una copia del software o pídale que lo descargue del sitio web. Si no tiene el instalador, puede descargarlo desde la [página de descarga](https://www.adobe.com/es/products/livecycle/rightsmanagement/extension/downloads.html).
+Para que un usuario abra y utilice archivos de Word, Excel y PowerPoint protegidos por políticas, la directiva debe incluir al usuario como destinatario o permitir el acceso anónimo. Además, el usuario debe tener instalada la extensión de seguridad de documentos para Microsoft® Office. Para proporcionar un archivo protegido por políticas a alguien que no tenga la extensión de seguridad de documentos para Microsoft® Office, asígneles una copia del software o indíqueles cómo descargarlo de su sitio web. Si no tiene el instalador, puede descargarlo desde la [página de descarga](https://experienceleague.adobe.com/docs/experience-manager-document-security/using/download-installer.html?lang=en).
 
-Cuando un usuario intenta abrir un archivo protegido por una directiva, la extensión de Document Security para Microsoft Office se conecta a Document Security para autenticar al usuario. Si Document Security está configurado para auditar el uso de archivos, el usuario verá una notificación que indica que se está auditando el uso del archivo. Document Security determina qué permisos de archivo se concederán al usuario y el usuario podrá usar el archivo según la configuración de la directiva, bajo estas condiciones:
+Cuando un usuario intenta abrir un archivo protegido por políticas, Document Security Extension para Microsoft® Office se conecta a Document Security para autenticar al usuario. Si Document Security está configurado para auditar el uso de archivos, el usuario verá una notificación que indica que se está auditando el uso del archivo. Document Security determina qué permisos de archivo se concederán al usuario y el usuario podrá usar el archivo según la configuración de la directiva, bajo estas condiciones:
 
 * Para el período de validez especificado en la directiva.
 * Hasta que un administrador o la persona que aplicó la directiva anulen el acceso al archivo o cambien la directiva.
 
-   Si la persona que aplicó la directiva cambia la directiva o anula el acceso al archivo, los permisos del usuario para el archivo se cambiarán o eliminarán aunque el usuario ya tenga el archivo. Si se revocó el archivo mismo, se puede proporcionar una URL al usuario para obtener una copia actualizada.
+   Si la persona que aplicó la directiva cambia la directiva o revoca el acceso al archivo, los permisos del usuario para el archivo se cambian o eliminan aunque el usuario ya tenga el archivo. Si se revocó el archivo mismo, se puede proporcionar una URL al usuario para obtener una copia actualizada.
 
-   Los archivos protegidos por directivas se pueden abrir sin conexión (sin conexión a Internet o a la red), si la directiva permite el acceso sin conexión, durante el período de concesión sin conexión especificado en la directiva. Cuando finaliza el período de concesión sin conexión, el usuario debe conectarse y sincronizar con Document Security, que inicio un nuevo período de concesión.
+   Los archivos protegidos por políticas se pueden abrir sin conexión (sin conexión a Internet o a la red), si la política permite el acceso sin conexión, durante el período de arrendamiento sin conexión especificado en la directiva. Cuando finaliza el período de concesión sin conexión, el usuario debe conectarse y sincronizar con Document Security, que inicio un nuevo período de concesión.
 
    Si la directiva permite guardar el archivo y un usuario guarda una copia del archivo protegido por una directiva, la directiva se aplica automáticamente y se aplica al archivo guardado. Los eventos, como los intentos de abrir el nuevo archivo, también se auditan y registran del mismo modo que en el archivo original.
 
@@ -61,11 +60,11 @@ Cuando un usuario intenta abrir un archivo protegido por una directiva, la exten
 
 Puede utilizar directivas para proteger los archivos en diversas situaciones.
 
-Por ejemplo, un fabricante acepta ofertas de proveedores que proporcionarán piezas para un nuevo producto. El fabricante deberá facilitar a los licitadores la información de propiedad que necesiten para finalizar sus presentaciones. El fabricante utiliza Document Security para proteger los archivos con una directiva que permite a los proveedores abrir los archivos y ver la información. Sin embargo, se impide a los proveedores cambiar, imprimir o copiar los archivos, y a cualquier persona que no tenga permiso se le impide abrir los archivos.
+Por ejemplo, un fabricante acepta ofertas de proveedores que proporcionan piezas para un nuevo producto. El fabricante deberá facilitar a los ofertantes información privada para que finalicen sus presentaciones. El fabricante utiliza Document Security para proteger los archivos con una directiva que permite a los proveedores abrir los archivos y ver la información. Sin embargo, se impide a los proveedores cambiar, imprimir o copiar los archivos, y a cualquier persona que no tenga permiso se le impide abrir los archivos.
 
 Tras aceptar una de las ofertas, el fabricante actualiza la directiva para otorgar al proveedor seleccionado permisos para imprimir, copiar y guardar cambios localmente, y para eliminar los proveedores no seleccionados de modo que ya no tengan permiso para abrir los archivos.
 
-Mientras trabajan con el postor final, los ingenieros del fabricante cambian algunas de las especificaciones de diseño de los archivos. Para publicar las nuevas especificaciones, el fabricante anula el acceso a algunos de los archivos y publica nuevas versiones. Cuando los ingenieros del proveedor seleccionado intentan abrir el archivo, ven un mensaje que indica que se ha revocado el acceso al archivo. El mensaje contiene una dirección URL donde pueden descargar una nueva versión del archivo.
+Mientras trabaja con el postor exitoso, los ingenieros del fabricante cambian algunas de las especificaciones de diseño en los archivos. Para publicar las nuevas especificaciones, el fabricante anula el acceso a algunos de los archivos y publica nuevas versiones. Cuando los ingenieros del proveedor seleccionado intentan abrir el archivo, ven un mensaje que indica que se ha revocado el acceso al archivo. El mensaje contiene una dirección URL donde pueden descargar una nueva versión del archivo.
 
 ## Información adicional {#additional-information}
 
@@ -79,11 +78,11 @@ Los recursos de esta tabla pueden ayudarle a obtener más información sobre AEM
   </tr>
   <tr>
    <td><p>Ayuda para el administrador de AEM Forms</p> </td>
-   <td><p><a href="http://www.adobe.com/go/learn_aemforms_admin_65_es">Ayuda para el administrador </a>o, en las páginas de administración de Document Security, haga clic en el vínculo Ayuda en la esquina superior derecha de una página.</p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/get-started/configure-general-aem-forms-settings.html?lang=en">Ayuda para el administrador </a>o, en las páginas de administración de Document Security, haga clic en el vínculo Ayuda en la esquina superior derecha de una página.</p> </td>
   </tr>
   <tr>
    <td><p>Actualizaciones de parches, notas técnicas e información adicional sobre esta versión del producto</p> </td>
-   <td><p><a href="https://helpx.adobe.com/es/marketing-cloud/contact-support.html">Asistencia técnica de Experience Cloud</a></p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support">Asistencia técnica del Experience Cloud</a></p> </td>
   </tr>
  </tbody>
 </table>
