@@ -7,7 +7,7 @@ topic-tags: installing
 discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
 exl-id: 582f10bb-60d2-46ed-b81d-5818a040edc6
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
 ht-degree: 100%
 
@@ -92,7 +92,7 @@ Al proteger cualquier archivo compartido de Microsoft Office mediante la extensi
 
 ### Inicio de aplicaciones de Office en un equipo que contiene la extensión de Document Security para Microsoft Office y McAfee VirusScan {#starting-office-applications-on-a-machine-containing-document-security-extension-for-microsoft-office-and-mcafee-virusscan}
 
-Para garantizar que las aplicaciones de Office se inicien sin problemas en un equipo que tenga instalado Document Security y McAfee VirusScan con la opción de protección de acceso activada, desactive la opción Protección contra desbordamientos de búfer en la consola de McAfee VirusScan.
+Para garantizar que las aplicaciones de Office se inicien sin problemas en un equipo que tenga instalado Document Security y McAfee VirusScan con la opción de protección de acceso activada, desactive la opción protección contra desbordamientos de búfer en la consola de McAfee VirusScan.
 
 ### Instalación de la extensión de Document Security para Microsoft Office en un equipo con un idioma no admitido de Microsoft Office {#installing-document-security-extension-for-microsoft-office-on-a-machine-with-an-unsupported-microsoft-office-language}
 
@@ -120,6 +120,6 @@ Si hay varios certificados en el equipo cliente y el usuario cancela el cuadro d
 
 ### Microsoft PowerPoint permite editar documentos protegidos {#microsoft-powerpoint-allows-editing-protected-documents}
 
-Al intentar editar un documento protegido, Microsoft PowerPoint muestra un mensaje: “No puede modificar este documento. No podrá guardar los cambios”. Después de cerrar el mensaje, los usuarios pueden seguir agregando texto o editando el documento. Sin embargo, los cambios realizados en los documentos protegidos no se guardan.
+Al intentar editar un documento protegido, Microsoft PowerPoint muestra un mensaje: “No puede modificar este documento. No podrá guardar los cambios.” Después de cerrar el mensaje, los usuarios pueden seguir agregando texto o editando el documento. Sin embargo, los cambios realizados en los documentos protegidos no se guardan.
 
 El comportamiento mencionado es el esperado en PowerPoint 2013, PowerPoint 2016 y PowerPoint 2019.
