@@ -8,7 +8,7 @@ topic-tags: using
 discoiquuid: bdc3f174-e417-4d3e-b3af-972cdcc10133
 exl-id: 98f24032-0774-47f8-bcc5-1ee37b417833
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -40,4 +40,4 @@ En esta sección se analizan los posibles problemas con la extensión de AEM Doc
 
 ### Las aplicaciones de Microsoft Office no se inician correctamente al instalar la extensión de Document Security {#microsoft-office-applications-dont-start-smoothly-on-installing-document-security-extension}
 
-Para garantizar que las aplicaciones de Office se inicien sin problemas en un equipo que tenga instalado la extensión de Document Security y McAfee VirusScan con la opción de protección de acceso activada, desactive la opción Protección contra desbordamientos de búfer en la consola de McAfee VirusScan.
+Para garantizar que las aplicaciones de Office se inicien sin problemas en un equipo que tenga instalado la extensión de Document Security y McAfee VirusScan con la opción de protección de acceso activada, desactive la opción protección contra desbordamientos de búfer en la consola de McAfee VirusScan.
