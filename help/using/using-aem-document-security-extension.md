@@ -7,8 +7,8 @@ topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
-source-wordcount: '6231'
+workflow-type: ht
+source-wordcount: '6242'
 ht-degree: 100%
 
 ---
@@ -75,6 +75,7 @@ Si necesita acceder a las páginas web de Document Security mediante autenticaci
 >Si no puede conectar con el servidor, intente abrir las páginas web de Document Security en Internet Explorer. Si no puede conectar con el servidor mediante Internet Explorer o si aparece un cuadro de diálogo con una advertencia sobre el certificado del servidor, la extensión de Document Security para Microsoft® Office no podrá conectarse al servidor. Póngase en contacto con el administrador del servidor para obtener ayuda.
 
 >[!NOTE]
+>
 >Si no puede conectarse a Document Security, aparece un mensaje que indica que “El nombre de usuario y la contraseña son incorrectos, compruebe los ajustes de la configuración e inténtelo de nuevo”. Este mensaje puede aparecer si no se puede conectar por otro motivo. Si se está conectando al servidor por primera vez, compruebe que ha establecido correctamente el nombre y el puerto del servidor.
 
 #### Especificar servidor predeterminado {#specify-the-default-server}
@@ -109,6 +110,7 @@ Realice los siguientes pasos para habilitar la autenticación extendida con la d
    Haga clic en **[!UICONTROL Guardar]**.
 
    >[!NOTE]
+   >
    >Utilice un nombre de host completo en la dirección URL. Se recomienda utilizar el protocolo HTTPS.
 
    Ahora, AEM Forms Document Security está configurada para utilizar la autenticación extendida con la dirección URL de aterrizaje de AEM Forms predeterminada.
@@ -133,6 +135,7 @@ Para habilitar una autenticación extendida con una dirección URL de aterrizaje
 1. Añada las siguientes entradas al archivo config.xml en el nodo SSO después de la entrada *&lt;node name=&quot;AllowedUrls&quot;>*:
 
    >[!NOTE]
+   >
    >&lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/>!!discoiqbr!!&lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;>!!discoiqbr!!&lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/>!!discoiqbr!!
 
    Para obtener información detallada sobre la actualización del archivo config.xml, consulte [Edición manual del archivo de configuración de Document Security](https://helpx.adobe.com/es/aem-forms/6-3/admin-help/configuring-client-server-options.html#manually_editing_the_document_security_configuration_file).
@@ -178,6 +181,7 @@ Si todavía no tiene una cuenta de Document Security, puede iniciar el proceso d
 Después de registrarse y activar la cuenta, puede utilizar los archivos protegidos por directivas que recibió autorización para utilizar mediante una directiva.
 
 >[!NOTE]
+>
 >Si recibe un archivo protegido por una directiva y no tiene una cuenta de Document Security, o si recibe una invitación para registrarse, póngase en contacto con la persona que le envió el archivo para obtener ayuda.
 
 Si recibe una invitación por correo electrónico de Document Security para registrarse, puede hacerlo utilizando la URL del mensaje de correo electrónico para abrir la página de registro en línea. Después de registrarse, recibirá un segundo aviso sobre la activación de su cuenta.
@@ -189,6 +193,7 @@ Si recibe una invitación por correo electrónico de Document Security para regi
 1. Escriba su nombre, organización y contraseña en los cuadros correspondientes. La contraseña puede ser cualquier combinación de ocho caracteres.
 
    >[!NOTE]
+   >
    >Asegúrese de elegir una contraseña que sea fácil de recordar; no hay ningún método disponible para buscar contraseñas olvidadas.
 
 1. Haga clic en **Registrar**. Aparece un mensaje que le informa de que debe buscar un mensaje de correo electrónico de activación en su correo electrónico.
@@ -327,6 +332,7 @@ Puede aplicar cualquier directiva disponible a un archivo, incluidas las directi
 Después de aplicar una directiva, se agrega a la lista Utilizadas recientemente en el menú de AEM Document Security para facilitar la aplicación de las directivas que se utilizan con más frecuencia. Si utiliza más de una instancia de Document Security, la lista Utilizado recientemente muestra las directivas únicamente para el servidor al que está conectado actualmente o para el servidor predeterminado si aún no ha iniciado sesión en una instancia de Document Security.
 
 >[!NOTE]
+>
 >Las políticas solo se pueden aplicar a archivos de documento de Word (.doc, también .docx y .docm en Microsoft® Office 2010 y 2013), archivos de libros de Excel (.xls, también .xlsx y .xlsm en Microsoft® Office 2010 y 2013) y archivos de presentación de PowerPoint (.ppt, también .pptx y .pptm en Microsoft® Office 2010 y 2013). No puede aplicar directivas a archivos de plantilla de Word (.dot), archivos de plantilla de Excel (.xlt) ni archivos de plantilla de diseño de PowerPoint (.pot).
 
 #### Aplicar una directiva {#apply-a-policy}
@@ -358,6 +364,7 @@ La extensión de Document Security para Microsoft® Office restringe ciertas fun
 Si está trabajando con un archivo protegido por una directiva, es posible que algunas características del producto no estén disponibles o que no funcionen como de costumbre. Si también tiene un archivo no protegido abierto, la mayoría de las funciones se activan para el archivo no protegido, excepto las que permiten importar o copiar contenido de un archivo protegido por una directiva para el que no tiene permisos de copia o exportación.
 
 >[!NOTE]
+>
 >Cuando se utilizan aplicaciones de Office compatibles con la extensión de Document Security, se recomienda desactivar la configuración DEP de Windows. Además, para garantizar que las aplicaciones de Office se inicien sin problemas en un equipo que tenga instalada la extensión de Document Security y McAfee VirusScan con la opción de protección de acceso activada, desactive la opción Protección contra desbordamientos de búfer en la consola de McAfee VirusScan.
 
 Si una función no está disponible, el nombre del comando en el menú y el botón de barra de herramientas relacionado no estarán disponibles. En la extensión de Document Security para Microsoft® Office, cuando pasa el puntero del ratón sobre el comando o el botón, una sugerencia de herramienta indica que Document Security ha bloqueado el comando.
@@ -385,6 +392,7 @@ Si está autorizado, puede eliminar la protección de directivas de los archivos
    Si todavía no ha proporcionado la información de inicio de sesión para Document Security, aparecerá un cuadro de diálogo en el que se solicitará su nombre de usuario y contraseña.
 
 >[!NOTE]
+>
 >Si no puede quitar una directiva de un archivo protegido por usted, póngase en contacto con un administrador de Document Security.
 
 ### Visualización de la configuración de seguridad {#viewing-security-settings}
@@ -404,6 +412,7 @@ Si el administrador ha habilitado la funcionalidad de política de aplicación a
 Si la política de aplicación automática está activada, la extensión de Document Security para Microsoft® Office le pedirá que inicie sesión en el servidor de Document Security. Debe proporcionar el nombre de usuario y la contraseña para que el servidor los autentique. Si ha proporcionado las credenciales de inicio de sesión correctas, el documento se guardará y protegerá.
 
 >[!NOTE]
+>
 >Si no puede iniciar sesión en Document Security, es posible que el documento se guarde o no. Esto depende de cómo haya configurado el administrador la directiva de aplicación automática. Consulte con el administrador cómo se gestionan los documentos en esta situación.
 
 ### Sincronización del acceso sin conexión {#synchronizing-for-offline-access}
@@ -414,7 +423,7 @@ Haga lo siguiente:
 
 * En la extensión de Document Security para Microsoft® Office 2010 y 2013, en la pestaña **Document Security**, seleccione **Sincronizar sin conexión**.
 
-   ***Nota**: El botón Sincronizar sin conexión está disponible aunque el usuario no tenga permiso sin conexión para el documento. Sin embargo, seleccionar el botón no hace nada. *
+  ***Nota**: El botón Sincronizar sin conexión está disponible aunque el usuario no tenga permiso sin conexión para el documento. Sin embargo, seleccionar el botón no hace nada. *
 
 ### Uso de marcas de agua dinámicas {#working-with-dynamic-watermarks}
 
@@ -542,6 +551,7 @@ La mayoría de las directivas otorgan permisos completos al editor de archivos. 
 Si un comando no está disponible, el nombre del comando en el menú y el botón de barra de herramientas relacionado aparecen atenuados.
 
 >[!NOTE]
+>
 >La aplicación de una directiva a un archivo que contiene un vínculo a un archivo incrustado no se aplica al archivo vinculado. Document Security para Microsoft® Office no extiende la protección a los archivos vinculados.
 
 * Los archivos de Word, Excel y PowerPoint protegidos por directivas no se pueden abrir en una ventana del explorador de Internet Explorer.

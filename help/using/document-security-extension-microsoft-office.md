@@ -7,8 +7,8 @@ topic-tags: using
 discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
 exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
-source-wordcount: '1313'
+workflow-type: ht
+source-wordcount: '1288'
 ht-degree: 100%
 
 ---
@@ -50,11 +50,11 @@ Cuando un usuario intenta abrir un archivo protegido por una directiva, la exten
 * Para el período de validez especificado en la directiva.
 * Hasta que un administrador o la persona que aplicó la directiva anulen el acceso al archivo o cambien la directiva.
 
-   Si la persona que aplicó la directiva la cambia o anula el acceso al archivo, los permisos del usuario cambian o se eliminan aunque el usuario ya tenga el archivo. Si se revoca el archivo, se puede proporcionar una URL para que el usuario obtenga una copia actualizada.
+  Si la persona que aplicó la directiva la cambia o anula el acceso al archivo, los permisos del usuario cambian o se eliminan aunque el usuario ya tenga el archivo. Si se revoca el archivo, se puede proporcionar una URL para que el usuario obtenga una copia actualizada.
 
-   Los archivos protegidos por directivas se pueden abrir sin conexión (a internet o a la red), si la directiva permite el acceso sin conexión, durante el período de concesión sin conexión especificado en la directiva. Cuando finaliza el período de concesión sin conexión, el usuario debe conectarse y sincronizar con Document Security, que inicio un nuevo período de concesión.
+  Los archivos protegidos por directivas se pueden abrir sin conexión (a internet o a la red), si la directiva permite el acceso sin conexión, durante el período de concesión sin conexión especificado en la directiva. Cuando finaliza el período de concesión sin conexión, el usuario debe conectarse y sincronizar con Document Security, que inicio un nuevo período de concesión.
 
-   Si la directiva permite guardar el archivo y un usuario guarda una copia del archivo protegido por una directiva, la directiva se aplica automáticamente y se aplica al archivo guardado. Los eventos, como los intentos de abrir el nuevo archivo, también se auditan y registran del mismo modo que en el archivo original.
+  Si la directiva permite guardar el archivo y un usuario guarda una copia del archivo protegido por una directiva, la directiva se aplica automáticamente y se aplica al archivo guardado. Los eventos, como los intentos de abrir el nuevo archivo, también se auditan y registran del mismo modo que en el archivo original.
 
 ## Uso de Document Security para proteger los archivos {#using-document-security-to-protect-your-files}
 
